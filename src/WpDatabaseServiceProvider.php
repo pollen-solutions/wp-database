@@ -20,11 +20,8 @@ class WpDatabaseServiceProvider extends BootableServiceProvider
      */
     public function register(): void
     {
-        $this->getContainer()->share(
-            WpDatabaseInterface::class,
-            function () {
-                return new WpDatabase([], $this->getContainer());
-            }
-        );
+        $this->getContainer()->share(WpDatabaseInterface::class, function () {
+            return new WpDatabase([], $this->getContainer());
+        });
     }
 }

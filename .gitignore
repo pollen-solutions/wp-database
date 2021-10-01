@@ -1,7 +1,17 @@
+## IDE
+/.idea/
+
+## HIDDEN FILES
+.svn
+.svnignore
 .DS_Store
-.idea
-composer.lock
-package-lock.json
-yarn.lock
-/node_modules/
+
+## PACKAGES
+### COMPOSER
 /vendor/
+/composer.lock
+### NPM
+/node_modules/
+/package-lock.json
+### YARN
+/yarn.lock

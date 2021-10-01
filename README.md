@@ -1,12 +1,10 @@
-# Worpress Database Component
-
-# Pollen Database Component
+# WordPress Database
 
 [![Latest Stable Version](https://img.shields.io/packagist/v/pollen-solutions/wp-database.svg?style=for-the-badge)](https://packagist.org/packages/pollen-solutions/wp-database)
 [![MIT Licensed](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)](LICENSE.md)
 [![PHP Supported Versions](https://img.shields.io/badge/PHP->=7.0-8892BF?style=for-the-badge&logo=php)](https://www.php.net/supported-versions.php)
 
-Pollen Solutions **Wp Database** Component is a Wordpress adapter for the Pollen Database Component.
+**WordPress Database** Component is a WordPress adapter for the Pollen Database Component.
 
 ## Installation
 
@@ -150,5 +148,4 @@ try {
     $data = $e->getMessage();
 }
 echo $data;
-
 ```

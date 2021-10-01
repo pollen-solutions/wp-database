@@ -206,7 +206,7 @@ class WpDatabase implements WpDatabaseInterface
     protected function getCollation(): string
     {
         if ($this->collation === null) {
-            $this->collation = defined('DB_COLLATE') ? DB_COLLATE : Env::get('DB_CHARSET', 'utf8mb4_unicode_ci');
+            $this->collation = defined('DB_COLLATE') ? DB_COLLATE : Env::get('DB_COLLATE', 'utf8mb4_unicode_ci');
         }
         return $this->collation;
     }

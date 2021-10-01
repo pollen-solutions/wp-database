@@ -9,7 +9,7 @@
     "eloquent",
     "wordpress"
   ],
-  "time": "2021-08-12",
+  "time": "2021-10-01",
   "license": "MIT",
   "authors": [
     {
@@ -39,11 +39,5 @@
   "suggest": {
     "pollen-solutions/container" : "Pollen Solutions - Container Component - PSR-11 ready Dependencies Injection Container."
   },
-  "minimum-stability": "dev",
-  "prefer-stable": true,
-  "config": {
-    "optimize-autoloader": true,
-    "preferred-install": "dist",
-    "sort-packages": true
-  }
+  "minimum-stability": "dev"
 }
